@@ -1,0 +1,23 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page session="false"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<html>
+<head>
+<style type="text/css">
+
+
+</style>
+<title>Home</title>
+</head>
+<body>
+	<h1>게시물</h1>
+	<P>The time on the server is ${serverTime}.</P>
+	<ul>
+		<li><a href="/board/list">게시물 목록</a></li>
+		<li><a href="/board/write">게시물 작성</a></li>
+		<li><a href="/board/listPage?num=1">글 목록(페이징)</a></li>
+
+	</ul>
+</body>
+</html>

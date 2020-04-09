@@ -1,0 +1,17 @@
+package com.user.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/login/*")
+public class UserContoller {
+	
+	@RequestMapping(value="/login", method=RequestMethod.GET)
+	public void getLogin(Model model) throws Exception{
+		
+	}
+	
+
+}

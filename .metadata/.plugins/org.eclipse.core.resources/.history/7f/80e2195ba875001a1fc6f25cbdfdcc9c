@@ -1,0 +1,44 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page session="false"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<html>
+<head>
+<style type="text/css">
+.main_title {
+	font-size: 20px;
+	border: 1px solid;
+	background-color: green;
+}
+
+.main_title h1 {
+	padding: 20px;
+}
+
+.main_title span {
+	position: right;
+}
+
+.list_first {
+	border: 1px solid;
+}
+</style>
+<title>Home</title>
+</head>
+<body>
+	<div class="main_title">
+		<h1>NAVER</h1>
+		<div class="main_nav">
+			<span>The time on the server is ${serverTime}.</span>
+		</div>
+	</div>
+	<div class="list_first">
+		<ul>
+			<li><a href="/board/list">게시물 목록</a></li>
+			<li><a href="/board/write">게시물 작성</a></li>
+			<li><a href="/board/listPage?num=1">글 목록(페이징)</a></li>
+		</ul>
+
+	</div>
+</body>
+</html>
