@@ -34,9 +34,13 @@ public class UserContoller {
 		String formattedDate = dateFormat.format(date);
 		UserVO result = service.login(uservo);		
 		model.addAttribute("serverTime", formattedDate );
-		model.addAttribute("result" , result.getUse_yn());
-		
+		model.addAttribute("result" , result.getUse_yn());		
 		return "home";
+	}
+	
+	@RequestMapping(value="/userinfo", method =RequestMethod.GET)
+	public String getuserinfopage( Model model) throws Exception{
+		return "/user/userinfo";
 	}
 
 }
