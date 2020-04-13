@@ -1,0 +1,19 @@
+package com.user.controller;
+
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.Mapping;
+
+import com.user.domain.UserVO;
+
+@Service
+public class UserService {
+	
+	public String login(UserVO uservo) throws Exception{
+		System.out.println("Login Service ::: " +  uservo);
+		System.out.println("ID " + uservo.getId());
+		System.out.println("pw " + uservo.getPasssword();
+		
+		return null;
+		
+	}
+}

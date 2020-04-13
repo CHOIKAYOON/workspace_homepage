@@ -1,0 +1,26 @@
+package com.user.controller;
+
+import javax.inject.Inject;
+
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.Mapping;
+
+import com.user.domain.UserVO;
+import com.user.controller.UserDAO;
+
+@Service
+public class UserService {
+	@Inject
+	UserDAO dao;
+	
+	public String login(UserVO uservo) throws Exception{
+		System.out.println("Login Service ::: " +  uservo);
+		System.out.println("ID " + uservo.getId());
+		System.out.println("pw " + uservo.getPasssword());
+		
+		dao.login(uservo)
+		
+		return null;
+		
+	}
+}

@@ -1,0 +1,21 @@
+package com.user.service;
+
+import javax.inject.Inject;
+
+import org.springframework.stereotype.Service;
+
+import com.user.dao.UserDAO;
+import com.user.domain.UserVO;
+
+@Service
+public class UserService{
+	
+	@Inject
+	private UserDAO dao;
+	
+	public String login(UserVO uservo) throws Exception{
+		String data = dao.login(uservo);
+		System.out.println(">>>Service ::: " + data);
+		return data; 
+	};
+}

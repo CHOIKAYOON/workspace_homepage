@@ -1,0 +1,23 @@
+package com.user.dao;
+
+import javax.inject.Inject;
+
+import org.apache.ibatis.session.SqlSession;
+
+import com.user.domain.UserVO;
+
+public class userDAOImpl{
+	@Inject
+	private SqlSession sql;
+	
+	private static String namespace = "com.user.mappers.user";
+
+	public String login(UserVO uservo) throws Exception {
+		System.out.println("DAO 자바 객체 파일 :::");
+		/*
+		 * return sql.selectOne(namespace + ".login" , uservo);
+		 */
+		return null;
+	}
+
+}

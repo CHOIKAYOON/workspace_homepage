@@ -1,0 +1,10 @@
+package com.user.controller;
+
+import com.user.domain.UserVO;
+
+public interface UserDAO {
+	
+	//로그인
+	public String login(UserVO uservo) throws Exception;
+
+}
