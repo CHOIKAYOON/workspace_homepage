@@ -44,10 +44,7 @@
 							<a href="/user/login">로그인</a>
 						</div>
 						<div class="nav-item">
-							<a href="">회원가입</a>
-						</div>
-						<div class="nav-item">
-							<a href="">게시판</a>
+							<a href="/user/userinfo">회원가입</a>
 						</div>
 						<div class="nav-item">
 							<a href="">안내문</a>
@@ -69,8 +66,8 @@
 	</div> -->
 
 		<div class="main-img-center">
-			<img class=" img-main " alt=""
-				src="https://pds.joins.com/news/component/htmlphoto_mmdata/202002/24/89d49a45-44d2-4857-966f-18071e97e7d2.jpg">
+			<!-- <img class=" img-main " alt=""
+				src="https://pds.joins.com/news/component/htmlphoto_mmdata/202002/24/89d49a45-44d2-4857-966f-18071e97e7d2.jpg"> -->
 		</div>
 		<div class="main-conteiner">
 			<div class="main-img-side">
