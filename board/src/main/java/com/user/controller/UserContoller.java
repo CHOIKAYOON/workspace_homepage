@@ -1,5 +1,7 @@
 package com.user.controller;
 
+import java.text.DateFormat;
+import java.util.Date;
 import java.util.List;
 
 import javax.inject.Inject;
@@ -24,10 +26,14 @@ public class UserContoller {
 	public String getLoginpage( Model model) throws Exception{
 		return "/user/login";
 	}
-	
+		
 	@RequestMapping(value="/login.do", method =RequestMethod.POST)
 	public String getLogin(UserVO uservo, Model model) throws Exception{
-		UserVO result = service.login(uservo);
+		Date date = new Date();
+		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG);		
+		String formattedDate = dateFormat.format(date);
+		UserVO result = service.login(uservo);		
+		model.addAttribute("serverTime", formattedDate );
 		model.addAttribute("result" , result.getUse_yn());
 		
 		return "home";
