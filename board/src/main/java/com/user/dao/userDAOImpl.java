@@ -18,4 +18,9 @@ public class userDAOImpl implements UserDAO {
 		return sql.selectOne(namespace + ".login", uservo);
 	}
 
+	public UserVO userinfo(UserVO uservo) throws Exception {
+		 sql.insert(namespace + ".userinfo" , uservo);
+		 return uservo;
+	}
+
 }

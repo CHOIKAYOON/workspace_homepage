@@ -16,4 +16,9 @@ public class UserService{
 	public UserVO login(UserVO uservo) throws Exception{
 		return dao.login(uservo);
 	};
+	
+	public UserVO userinfo(UserVO uservo) throws Exception{
+		System.out.println(">>> service String ///");
+		return dao.userinfo(uservo);
+	};
 }

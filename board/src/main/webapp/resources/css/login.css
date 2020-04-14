@@ -37,7 +37,7 @@ input {
 	margin-right: 12px;
 }
 
-.login-content-btn button {
+.login-content-btn button{
 	background: skyblue;
 	border-radius: 5px;
 	padding: 5px;
@@ -46,4 +46,12 @@ input {
 
 label {
 	font-size: 14px;
+}
+
+.login-content-btn a {
+	background: skyblue;
+	border-radius: 5px;
+	padding: 5px;
+	color: white;
+	text-decoration: none;
 }

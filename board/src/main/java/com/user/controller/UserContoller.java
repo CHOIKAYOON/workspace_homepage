@@ -42,5 +42,16 @@ public class UserContoller {
 	public String getuserinfopage( Model model) throws Exception{
 		return "/user/userinfo";
 	}
+	
+	@RequestMapping(value="/userinfo.do", method =RequestMethod.POST)
+	public String setuserinfo( UserVO uservo, Model model) throws Exception{	
+		Date date = new Date();
+		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG);		
+		String formattedDate = dateFormat.format(date);
+		UserVO result = service.userinfo(uservo);	
+		model.addAttribute("serverTime", formattedDate );
+		model.addAttribute("result" , result.getUse_yn());			
+		return "home";
+	}
 
 }

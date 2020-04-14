@@ -8,24 +8,8 @@
 <meta charset="UTF-8">
 <title>Login</title>
 <link rel="stylesheet" type="text/css" href="/resources/css/login.css">
-<script type="text/javascript">
-function login(){
-	var loginId = document.getElementById("IdBox").value;
-	var loinPw = document.getElementById("PwBox").value;
-	
-	console.log(loginId , loinPw)
-
-	
-}
-
-function addUser(){
-	var addUser = document.getElementById("addUserBtn");
-	console.log("회원가입")
-}
-
-</script>
 </head>
-<body>
+<body class="body">
 	<form action="/user/login.do" method="post">
 		<div class="login-content">
 			<div class="login-content-input">
@@ -35,7 +19,9 @@ function addUser(){
 				<input class="login-input" type="password" id="PwBox" name="Passsword" placeholder="비밀번호를 입력해주세요">
 			</div>
 			<div class="login-content-btn">
-				<button onclick="addUser()" type="submit" id="addUserBtn">회원가입</button>
+				<button id="addUserBtn">
+					<a href="/user/userinfo">회원가입</a>
+				</button>
 				<button onclick="login()" type="submit" id="loginBtn">로그인</button>
 			</div>
 		</div>
