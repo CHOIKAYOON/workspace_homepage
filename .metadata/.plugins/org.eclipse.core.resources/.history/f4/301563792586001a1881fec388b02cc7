@@ -1,0 +1,10 @@
+package com.contact.dao;
+
+import java.awt.List;
+
+public interface ComtactDao {
+	
+	//게시물 가져오기
+	public List list() throws Exception;
+
+}

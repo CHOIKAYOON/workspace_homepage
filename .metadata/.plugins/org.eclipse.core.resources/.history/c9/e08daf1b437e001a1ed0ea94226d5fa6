@@ -1,0 +1,16 @@
+package com.phone.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/phone*")
+public class PhoneController {
+	
+	public String getphone(Model model) throws Exception{
+		return '/phone/phone';
+	}
+	
+
+}

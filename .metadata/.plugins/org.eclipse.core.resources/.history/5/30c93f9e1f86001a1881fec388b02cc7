@@ -1,0 +1,5 @@
+package com.contact.domain;
+
+public class ContactDomain {
+
+}

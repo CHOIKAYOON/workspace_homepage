@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.main-contant-img{
+	float: left;
+    width: 600px;
+    height: 500px;
+    margin: 100px 0px 100px 250px;
+}
+
+.main-contant-img img{
+	width: 500px;
+	height: 500px;	
+}
+
+.item-name{
+	display: inline-block;
+}
+
+.list-itme-title{
+	width: 500px;
+    border: 1px solid;
+    float: left;
+}
+

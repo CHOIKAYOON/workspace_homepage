@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.contact-list{
+    border: 1px solid white;
+    width: 1300px;
+    height: 570px;
+    float: left;
+    margin: 80px 80px 80px 190px;
+    background: whitesmoke;
+}
+
+.list-table{
+	width: 1300px;
+}
+

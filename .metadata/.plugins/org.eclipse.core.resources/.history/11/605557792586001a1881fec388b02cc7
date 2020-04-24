@@ -1,0 +1,19 @@
+package com.contact.dao;
+
+import java.awt.List;
+
+import javax.inject.Inject;
+
+import org.apache.ibatis.session.SqlSession;
+
+public class ContactDaoImpl implements ComtactDao {
+	
+	@Inject
+	private SqlSession sql;
+	
+	private static String namespace = "com.board.mappers.board";
+	
+	public List list() throws Exception{
+		return sql.selectList(namespace + ".list");
+	}
+}

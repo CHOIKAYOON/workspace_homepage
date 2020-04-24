@@ -23,7 +23,7 @@ public class UserContoller {
 	UserService service;
 	
 	@RequestMapping(value="/login", method =RequestMethod.GET)
-	public String getLoginpage( Model model) throws Exception{
+	public String getLoginpage() throws Exception{
 		return "/user/login";
 	}
 		
@@ -39,7 +39,7 @@ public class UserContoller {
 	}
 	
 	@RequestMapping(value="/userinfo", method =RequestMethod.GET)
-	public String getuserinfopage( Model model) throws Exception{
+	public String getuserinfopage() throws Exception{
 		return "/user/userinfo";
 	}
 	

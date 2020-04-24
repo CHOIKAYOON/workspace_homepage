@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.contact-list {
+	border: 1px solid white;
+	width: 1300px;
+	height: 450px;
+	float: left;
+	margin: 80px 80px 80px 190px;
+	background: lightgrey;
+}
+
+table {
+	width: 1300px;
+	background: lightgray;
+	border: 1px solid white;
+}
+
+.pageing-num {
+	margin: auto 500px;
+	text-align: center;
+	font-size: 20px;
+}
+
+#backBtn{
+	font-size: 20px;	
+}

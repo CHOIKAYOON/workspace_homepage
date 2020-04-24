@@ -1,0 +1,10 @@
+package com.contact.dao;
+
+import javax.inject.Inject;
+
+public class ComtactDaoImpl implements ComtactDao {
+	
+	@Inject
+	private SqlSession sql;
+
+}

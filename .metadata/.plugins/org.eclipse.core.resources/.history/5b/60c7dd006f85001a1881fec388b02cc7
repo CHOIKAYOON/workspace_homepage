@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.main-contant-img{
+	float: left;
+    width: 600px;
+    height: 500px;
+    margin: 100px 0px 100px 250px;
+}
+

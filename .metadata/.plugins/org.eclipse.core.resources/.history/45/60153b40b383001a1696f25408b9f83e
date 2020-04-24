@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.img-item{	
+	width: 500px;
+	height: 500px;
+}
+
+.list-itme-title{
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    display: inline-table;
+    margin: 100px 5px;
+}
+
+.item-name{
+	margin: 50px 20px 50px 40px;
+    font-size: 30px;
+    color: white;
+    float: left;
+    height: 80px;
+    width: 100px;
+}
+
+
+.itme-name-side{
+	border: 1px solid;
+    height: 80px;
+    width: 200px;
+    display: inline-table;
+    margin: 50px;
+    font-size: 28px;
+}

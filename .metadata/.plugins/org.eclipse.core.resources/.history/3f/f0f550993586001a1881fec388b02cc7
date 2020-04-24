@@ -1,0 +1,10 @@
+package com.contact.dao;
+import java.util.List;
+
+import com.contact.domain.ContactVo;
+
+public interface ContactDao {
+	
+	//게시물 가져오기
+	public List<ContactVo> list() throws Exception;
+}

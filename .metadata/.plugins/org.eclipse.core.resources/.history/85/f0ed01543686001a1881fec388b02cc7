@@ -1,0 +1,28 @@
+package com.contact.dao;
+
+
+import java.util.List;
+
+import javax.inject.Inject;
+
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.stereotype.Repository;
+
+import com.contact.domain.ContactVo;
+
+@Repository
+public class ContactDaoImpl implements ContactDao {
+	
+	@Inject
+	private SqlSession sql;
+	
+	private static String namespace = "com.board.mappers.board";
+	
+	public List<ContactVo> list() throws Exception{
+		return sql.selectList(namespace + ".list");
+	}
+
+	public int count() throws Exception {		
+		return sql.selectOne(namespace + ".count");
+	}
+}

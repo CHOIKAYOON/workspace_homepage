@@ -23,7 +23,6 @@
 	
 	<context:component-scan base-package="com.board.controller" />
 	<context:component-scan base-package="com.user.controller" />
-	
-	
-	
+	<context:component-scan base-package="com.phone.controller" />
+	<context:component-scan base-package="com.contact.controller" />	
 </beans:beans>

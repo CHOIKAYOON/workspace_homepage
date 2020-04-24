@@ -35,5 +35,9 @@
 		<context:component-scan base-package="com.user.domain" />
 		<context:component-scan base-package="com.user.dao" />
 		<context:component-scan base-package="com.user.service" />
+		
+		<context:component-scan base-package="com.contact.domain" />
+		<context:component-scan base-package="com.contact.dao" />
+		<context:component-scan base-package="com.contact.service" />
 
 </beans>

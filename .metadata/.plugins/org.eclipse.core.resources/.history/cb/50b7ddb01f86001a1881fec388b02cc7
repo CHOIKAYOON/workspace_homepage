@@ -1,0 +1,11 @@
+package com.contact.domain;
+
+public class ContactVo {
+
+	private int bno;
+	private String title;
+	private String contaxt;
+	private Date date;
+	
+	
+}

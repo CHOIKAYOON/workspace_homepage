@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.img-item{	
+	width: 500px;
+	height: 500px;
+}
+
+.item-name{
+	display: inline-table;
+}

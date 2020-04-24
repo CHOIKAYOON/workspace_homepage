@@ -1,0 +1,19 @@
+package com.contact.service;
+
+import java.awt.List;
+
+import javax.inject.Inject;
+
+import com.contact.dao.ContactDao;
+
+public class ContactService {
+
+	@Inject
+	private ContactDao dao;
+	
+	public List list() throws Exception{
+		System.out.println("service 진입");
+		return dao.list();		
+		
+	}
+}

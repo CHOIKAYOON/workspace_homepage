@@ -4,7 +4,7 @@
 	background-size: 500px;
 }
 .main-time {
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid white;
 	text-align: right;
 	color: white;
 	font-size: 14px;
@@ -28,7 +28,8 @@
 	justify-content: flex-end;
 	border-bottom: 1px solid;
 	padding: 5px;
-	border-bottom: 1px solid;
+	border-bottom: 1px solid white;
+	background: midnightblue;
 }
 
 .main-conteiner-title p {
@@ -46,7 +47,7 @@
 }
 
 .img-main {
-	height: 350px;
+	height: 400px;
 	width: 100%;
 }
 

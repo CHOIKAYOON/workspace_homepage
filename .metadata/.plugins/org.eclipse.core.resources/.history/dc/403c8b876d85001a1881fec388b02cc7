@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.img-item{	
+	width: 500px;
+	height: 500px;
+}
+
+.list-itme-title{
+	margin-top: 100px;
+    border: 1px solid;
+    width: 500px;
+    float: left;
+}
