@@ -2,11 +2,11 @@
  
 # 기술서 설명서
 
-#Program 개발 tool : STS  
-#server : Apache Tomcat 8.0  
-#SQl : MyBatis  
-#DB : Maria  
-#Build: Maven 
+##Program 개발 tool : STS  
+##server : Apache Tomcat 8.0  
+##SQl : MyBatis  
+##DB : Maria  
+##Build: Maven 
 ----------------------------------------
 
 # 기술서 소개서
