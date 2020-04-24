@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.contact-list {
+	border: 1px solid white;
+	width: 1300px;
+	height: 480px;
+	float: left;
+	margin: 80px 80px 80px 190px;
+	background: lightgrey;
+}
+
+table {
+	width: 1300px;
+	background: lightgray;
+	border: 1px solid white;
+}
+
+.pageing-num {
+	margin: 10px 500px;
+	text-align: center;
+	font-size: 17px;
+}
+
+#backBtn {
+	font-size: 20px;
+}
+
+.upbtn {
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 40px;
+}
+
+button a {
+	font-size: 17px;
+}
+
+.writer-main {
+	float: left;
+	width: 1400px;
+	height: 700px;
+	border: 1px solid;
+	margin: 120px;
+	background: darkgrey;
+}
+
+.writer-item{
+	margin: 70px;
+}

@@ -29,7 +29,7 @@
 							<a href="/phone/list">핸드폰 판매 게시판</a>
 						</div>
 						<div class="nav-item">
-							<a href="/contact/list?num=1">문의 하기</a>
+							<a href="/contact/list">문의 하기</a>
 						</div>
 						<div class="nav-item">
 							<a href="">안내문</a>

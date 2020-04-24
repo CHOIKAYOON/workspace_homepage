@@ -25,6 +25,10 @@ public class PhoneController {
 	
 	@RequestMapping(value ="/view/eight",  method =RequestMethod.GET)
 	public String getvieweight(Model model) throws Exception{
+		Date date = new Date();
+		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG);		
+		String formattedDate = dateFormat.format(date);	
+		model.addAttribute("serverTime", formattedDate );
 		return "/phone/view/eight";
 	}
 
