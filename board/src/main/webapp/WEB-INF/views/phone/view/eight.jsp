@@ -14,18 +14,21 @@
 <body class="body">
 	<div class="body-main">
 		<div class="nav-conteiner">
-			<div class="nav-conteiner-item">
+		<div class="nav-conteiner-item">
 				<div class="nav-item">
-					<a href="">로그아웃</a>
+					<a href="/">S A M S U N G</a>
 				</div>
 				<div class="nav-item">
-					<a href="/phone/list">핸드폰 판매</a>
+					<a href="">Logout</a>
 				</div>
 				<div class="nav-item">
-					<a href="/contact/list?num=1">문의 하기</a>
+					<a href="/phone/list">갤럭시5G</a>
 				</div>
 				<div class="nav-item">
-					<a href="">안내문</a>
+					<a href="/contact/list?num=1">Contact</a>
+				</div>
+				<div class="nav-item">
+					<a href="">Notice</a>
 				</div>
 			</div>
 		</div>

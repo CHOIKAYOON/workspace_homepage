@@ -60,46 +60,40 @@
 
 	<div class="list-main-img">
 		<div class="list-img-item">
-			<img class="img-item"
+			<a href="/phone/view/eight"> <img class="img-item"
 				src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsCPc6gv_hKB4tsGetCA_mP_JsHgN0wwz62autx8ypsduHfmhy&usqp=CAU">
-			<p>
-				<a href="/phone/view/eight">갤럭시 8</a>
-			</p>
+				<p>갤럭시 8</p>
+			</a>
 		</div>
 		<div class="list-img-item">
-			<img class="img-item"
+			<a href="/phone/view/eight"> <img class="img-item"
 				src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsCPc6gv_hKB4tsGetCA_mP_JsHgN0wwz62autx8ypsduHfmhy&usqp=CAU">
-			<p>
-				<a href="/phone/view/eight">갤럭시 노트 8</a>
-			</p>
+				<p>갤럭시 8</p>
+			</a>
 		</div>
 		<div class="list-img-item">
-			<img class="img-item"
+			<a href="/phone/view/eight"> <img class="img-item"
 				src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsCPc6gv_hKB4tsGetCA_mP_JsHgN0wwz62autx8ypsduHfmhy&usqp=CAU">
-			<p>
-				<a href="/phone/view/eight">갤럭시 9</a>
-			</p>
+				<p>갤럭시 8</p>
+			</a>
 		</div>
 		<div class="list-img-item">
-			<img class="img-item"
+			<a href="/phone/view/eight"> <img class="img-item"
 				src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsCPc6gv_hKB4tsGetCA_mP_JsHgN0wwz62autx8ypsduHfmhy&usqp=CAU">
-			<p>
-				<a href="/phone/view/eight">갤럭시 노트 9</a>
-			</p>
+				<p>갤럭시 8</p>
+			</a>
 		</div>
 		<div class="list-img-item">
-			<img class="img-item"
+			<a href="/phone/view/eight"> <img class="img-item"
 				src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsCPc6gv_hKB4tsGetCA_mP_JsHgN0wwz62autx8ypsduHfmhy&usqp=CAU">
-			<p>
-				<a href="/phone/view/eight">갤럭시 10</a>
-			</p>
+				<p>갤럭시 8</p>
+			</a>
 		</div>
 		<div class="list-img-item">
-			<img class="img-item"
+			<a href="/phone/view/eight"> <img class="img-item"
 				src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsCPc6gv_hKB4tsGetCA_mP_JsHgN0wwz62autx8ypsduHfmhy&usqp=CAU">
-			<p>
-				<a href="/phone/view/eight">갤럭시 노트 10</a>
-			</p>
+				<p>갤럭시 8</p>
+			</a>
 		</div>
 	</div>
 </body>

@@ -14,19 +14,22 @@
 	<div class="body-main">
 		<div class="nav-conteiner">
 			<div class="nav-conteiner-item">
-				<div class="nav-item">
-					<a href="">Logout</a>
+					<div class="nav-item">
+						<a href="/">S A M S U N G</a>
+					</div>
+					<div class="nav-item">
+						<a href="">Logout</a>
+					</div>
+					<div class="nav-item">
+						<a href="/phone/list">갤럭시5G</a>
+					</div>
+					<div class="nav-item">
+						<a href="/contact/list?num=1">Contact</a>
+					</div>
+					<div class="nav-item">
+						<a href="">Notice</a>
+					</div>
 				</div>
-				<div class="nav-item">
-					<a href="/phone/list">갤럭시5G</a>
-				</div>
-				<div class="nav-item">
-					<a href="/contact/list">Contact</a>
-				</div>
-				<div class="nav-item">
-					<a href="">Notice</a>
-				</div>
-			</div>
 		</div>
 	</div>
 	<div class="side-menu">
