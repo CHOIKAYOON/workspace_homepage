@@ -1,9 +1,0 @@
-package com.user.controller;
-
-public interface UserDAO {
-	
-	public String login() {
-		
-	}
-
-}

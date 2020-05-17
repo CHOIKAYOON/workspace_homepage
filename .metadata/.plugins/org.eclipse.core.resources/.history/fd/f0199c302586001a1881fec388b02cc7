@@ -1,8 +1,0 @@
-package com.contact.dao;
-
-public interface ComtactDao {
-	
-	//게시물 가져오기
-	public void list() throws Exception;
-
-}

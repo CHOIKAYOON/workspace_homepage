@@ -1,9 +1,0 @@
-package com.contact.service;
-
-public class ContactService {
-
-	
-	public void list() throws Exception{
-		
-	}
-}

@@ -1,9 +1,0 @@
-package com.contact.dao;
-
-public class ContactDao {
-	
-	public void list() throws Exception{
-		
-	}
-
-}

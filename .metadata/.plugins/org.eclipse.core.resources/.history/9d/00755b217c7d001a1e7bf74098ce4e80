@@ -1,8 +1,0 @@
-package com.user.service;
-
-import com.user.domain.UserVO;
-
-public interface UserService{
-	
-	public void login(UserVO uservo) throws Exception;
-}

@@ -1,9 +1,0 @@
-package com.phone.controller;
-
-import org.springframework.web.bind.annotation.RequestMapping;
-
-public class PhoneController {
-	
-	@RequestMapping("/phone*")
-
-}

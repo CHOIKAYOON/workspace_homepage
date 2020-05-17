@@ -1,7 +1,0 @@
-package com.user.domain;
-
-public class UserVO {
-	private String id;
-	private String passsword;
-
-}

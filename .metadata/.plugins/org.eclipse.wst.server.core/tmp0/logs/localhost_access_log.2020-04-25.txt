@@ -180,3 +180,10 @@
 0:0:0:0:0:0:0:1 - - [25/Apr/2020:02:43:24 +0900] "GET /resources/css/contact.css HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [25/Apr/2020:02:45:06 +0900] "GET /board/write HTTP/1.1" 200 5193
 0:0:0:0:0:0:0:1 - - [25/Apr/2020:02:45:06 +0900] "GET /resources/css/contact.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Apr/2020:02:47:26 +0900] "GET /phone/list HTTP/1.1" 200 6539
+0:0:0:0:0:0:0:1 - - [25/Apr/2020:02:47:27 +0900] "GET /resources/css/phonelist.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Apr/2020:02:47:29 +0900] "GET /contact/list?num=1 HTTP/1.1" 200 7932
+0:0:0:0:0:0:0:1 - - [25/Apr/2020:02:47:29 +0900] "GET /resources/css/contact.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Apr/2020:02:47:30 +0900] "GET /board/write HTTP/1.1" 200 5193
+0:0:0:0:0:0:0:1 - - [25/Apr/2020:02:47:39 +0900] "GET /phone/list HTTP/1.1" 200 6539
+0:0:0:0:0:0:0:1 - - [25/Apr/2020:02:47:40 +0900] "GET /contact/list?num=1 HTTP/1.1" 200 7932
