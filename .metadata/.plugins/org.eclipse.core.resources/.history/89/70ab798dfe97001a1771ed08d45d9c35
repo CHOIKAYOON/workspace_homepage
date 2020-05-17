@@ -54,5 +54,5 @@
 .side-menu-item a {
 	text-decoration: none;
 	color: white;
-    font-size: 23px;
+	font-size: 18px;
 }

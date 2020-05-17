@@ -40,6 +40,7 @@
 }
 
 .side-menu {
+    border: 1px solid white;
     width: 200px;
     height: 1300px;
     background: black;
@@ -54,5 +55,5 @@
 .side-menu-item a {
 	text-decoration: none;
 	color: white;
-    font-size: 23px;
+	font-size: 18px;
 }

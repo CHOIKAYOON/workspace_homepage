@@ -30,7 +30,6 @@
 	border-bottom: 1px solid #DDD;
 	background-color: transparent;
 	box-sizing: border-box;
-	margin-top: 30px;
 }
 
 .login-content-btn {

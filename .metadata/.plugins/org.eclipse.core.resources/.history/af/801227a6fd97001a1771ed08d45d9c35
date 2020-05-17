@@ -14,7 +14,7 @@
 	margin-left: -200px;
 	top: 30%;
 	margin-top: -200px;
-	border: 1px solid white;
+	border: 1px solid black;
 	background: white;
 }
 
@@ -30,10 +30,9 @@
 	border-bottom: 1px solid #DDD;
 	background-color: transparent;
 	box-sizing: border-box;
-	margin-top: 30px;
 }
 
-.login-content-btn {
+.login-content-btn"src/main/webapp/resources/css/phone.css" {
 	margin: 50px;
 }
 

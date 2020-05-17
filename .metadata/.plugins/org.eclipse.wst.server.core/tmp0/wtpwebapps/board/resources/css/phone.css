@@ -9,15 +9,17 @@
 
 .nav-conteiner-item {
 	display: flex;
-	justify-content: flex-end;
 	border-bottom: 1px solid;
 	padding: 5px;
-	border-bottom: 1px solid white;
+	border-bottom: 2px solid ;
 	/* 	background: midnightblue; */
 	height: 110px;
 	text-align: left;
 }
 
+.nav-conteiner{
+	border: 2px solid black;
+}
 .main-conteiner-title p {
 	margin-bottom: 0px;
 	margin-top: 0px;
@@ -38,11 +40,10 @@
 }
 
 .side-menu {
-	border: 1px solid white;
-	width: 200px;
-	height: 1300px;
-	background: linear-gradient(45deg, black, transparent);
-	float: left;
+    width: 200px;
+    height: 1300px;
+    background: black;
+    float: left;
 }
 
 .side-menu-item {
@@ -53,5 +54,5 @@
 .side-menu-item a {
 	text-decoration: none;
 	color: white;
-	font-size: 18px;
+    font-size: 23px;
 }

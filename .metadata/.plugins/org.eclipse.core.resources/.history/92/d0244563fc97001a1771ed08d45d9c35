@@ -6,8 +6,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="/resources/css/phone.css">
-<link rel="stylesheet" type="text/css"
-	href="/resources/css/phonelist.css">
+<link rel="stylesheet" type="text/css" href="/resources/css/phonelist.css">
 
 <meta charset="UTF-8">
 <title>phone</title>
@@ -17,13 +16,10 @@
 		<div class="nav-conteiner">
 			<div class="nav-conteiner-item">
 				<div class="nav-item">
-					<a href="/">S A M S U N G</a>
-				</div>
-				<div class="nav-item">
 					<a href="">Logout</a>
 				</div>
 				<div class="nav-item">
-					<a href="/phone/list">갤럭시5G</a>
+					<a href="/phone/list">갤럭시5G/a>
 				</div>
 				<div class="nav-item">
 					<a href="/contact/list?num=1">Contact</a>
@@ -60,46 +56,28 @@
 
 	<div class="list-main-img">
 		<div class="list-img-item">
-			<img class="img-item"
-				src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsCPc6gv_hKB4tsGetCA_mP_JsHgN0wwz62autx8ypsduHfmhy&usqp=CAU">
-			<p>
-				<a href="/phone/view/eight">갤럭시 8</a>
-			</p>
+			<img class="img-item" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsCPc6gv_hKB4tsGetCA_mP_JsHgN0wwz62autx8ypsduHfmhy&usqp=CAU">
+			<p> <a href="/phone/view/eight">갤럭시 8</a></p>
 		</div>
 		<div class="list-img-item">
-			<img class="img-item"
-				src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsCPc6gv_hKB4tsGetCA_mP_JsHgN0wwz62autx8ypsduHfmhy&usqp=CAU">
-			<p>
-				<a href="/phone/view/eight">갤럭시 노트 8</a>
-			</p>
+			<img class="img-item" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsCPc6gv_hKB4tsGetCA_mP_JsHgN0wwz62autx8ypsduHfmhy&usqp=CAU">
+			<p><a href="/phone/view/eight">갤럭시 노트 8</a></p>
 		</div>
 		<div class="list-img-item">
-			<img class="img-item"
-				src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsCPc6gv_hKB4tsGetCA_mP_JsHgN0wwz62autx8ypsduHfmhy&usqp=CAU">
-			<p>
-				<a href="/phone/view/eight">갤럭시 9</a>
-			</p>
+			<img class="img-item" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsCPc6gv_hKB4tsGetCA_mP_JsHgN0wwz62autx8ypsduHfmhy&usqp=CAU">
+			<p><a href="/phone/view/eight">갤럭시 9</a></p>
 		</div>
 		<div class="list-img-item">
-			<img class="img-item"
-				src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsCPc6gv_hKB4tsGetCA_mP_JsHgN0wwz62autx8ypsduHfmhy&usqp=CAU">
-			<p>
-				<a href="/phone/view/eight">갤럭시 노트 9</a>
-			</p>
+			<img class="img-item" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsCPc6gv_hKB4tsGetCA_mP_JsHgN0wwz62autx8ypsduHfmhy&usqp=CAU">
+			<p><a href="/phone/view/eight">갤럭시 노트 9</a></p>
 		</div>
 		<div class="list-img-item">
-			<img class="img-item"
-				src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsCPc6gv_hKB4tsGetCA_mP_JsHgN0wwz62autx8ypsduHfmhy&usqp=CAU">
-			<p>
-				<a href="/phone/view/eight">갤럭시 10</a>
-			</p>
+			<img class="img-item" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsCPc6gv_hKB4tsGetCA_mP_JsHgN0wwz62autx8ypsduHfmhy&usqp=CAU">
+			<p><a href="/phone/view/eight">갤럭시 10</a></p>
 		</div>
 		<div class="list-img-item">
-			<img class="img-item"
-				src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsCPc6gv_hKB4tsGetCA_mP_JsHgN0wwz62autx8ypsduHfmhy&usqp=CAU">
-			<p>
-				<a href="/phone/view/eight">갤럭시 노트 10</a>
-			</p>
+			<img class="img-item" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsCPc6gv_hKB4tsGetCA_mP_JsHgN0wwz62autx8ypsduHfmhy&usqp=CAU">
+			<p><a href="/phone/view/eight">갤럭시 노트 10</a></p>
 		</div>
 	</div>
 </body>
