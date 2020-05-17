@@ -14,11 +14,14 @@
 			<c:when test="${result eq 'Y'}">
 				<div class="nav-conteiner">
 					<div class="nav-conteiner-item">
+					<div class="nav-item">
+							<a href="/">S A M S U N G</a>
+						</div>
 						<div class="nav-item">
 							<a href="">Logout</a>
 						</div>
 						<div class="nav-item">
-							<a href="/phone/list">갤럭시5G/a> 
+							<a href="/phone/list">갤럭시5G</a> 
 						</div>
 						<div class="nav-item">
 							<a href="/contact/list">Contact</a>
