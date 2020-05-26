@@ -1,30 +1,39 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ page session="false"%>
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="/resources/css/home.css">
+<script type="text/javascript" src="/resources/lib/jquery-3.5.1.js"></script>
+<script type="text/javascript" src="/resources/lib/jquery-3.5.1.min.js"></script>
 <title>Home</title>
+<script>
+$(document).ready( function() {
+	//로그아웃버튼
+	$("#logoutBtn").click(()=>{
+		alert("로그아웃 하시겠습니까?")
+	})
+});
+</script>
 </head>
+
 <body class="body">
 	<div class="body-main">
 		<c:choose>
 			<c:when test="${result eq 'Y'}">
 				<div class="nav-conteiner">
 					<div class="nav-conteiner-item">
-					<div class="nav-item">
+						<div class="nav-item">
 							<a href="/">S A M S U N G</a>
 						</div>
 						<div class="nav-item">
-							<a href="">Logout</a>
+							<a href="/" id="logoutBtn">Logout</a>
 						</div>
 						<div class="nav-item">
 							<a href="/phone/list">갤럭시5G</a> 
 						</div>
 						<div class="nav-item">
-							<a href="/contact/list">Contact</a>
+							<a href="/contact/list?num=1">Contact</a>
 						</div>
 						<div class="nav-item">
 							<a href="">Notice</a>
@@ -59,9 +68,11 @@
 			</div>
 		</div>
 		<div class="list_first">
-			<a href="/board/list">Post list</a> <a href="/board/write">Post
-				Write</a> <a href="/board/listPage?num=1">Post(Pagin)</a> <a
-				href="/board/listPage?num=1">Post(Button)</a>
+		<h2><a href="/phone/list">스 마 트 폰 모 두 보 기 <strong> > </strong></a></h2>
+			<a href="">Post list</a>
+			 <a href="">Post Write</a> 
+				<a href="/board/listPage?num=1">Post(Pagin)</a> 
+				<a href="/board/listPage?num=1">Post(Button)</a>
 		</div>
 		<div class="main-conteiner">
 			<div class="main-img-side">

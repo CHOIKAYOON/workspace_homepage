@@ -12,30 +12,32 @@
 </head>
 <body class="body">
 	<div class="body-main">
-	
 		<div class="nav-conteiner">
 			<div class="nav-conteiner-item">
 				<div class="nav-item">
-					<a href="">로그아웃</a>
+					<a href="/">S A M S U N G</a>
 				</div>
 				<div class="nav-item">
-					<a href="/phone/list">핸드폰 판매</a>
+					<a href="/" id="logoutBtn">Logout</a>
 				</div>
 				<div class="nav-item">
-					<a href="/contact/list">문의 하기</a>
+					<a href="/phone/list">갤럭시5G</a>
 				</div>
 				<div class="nav-item">
-					<a href="">안내문</a>
+					<a href="/contact/list?num=1">Contact</a>
+				</div>
+				<div class="nav-item">
+					<a href="">Notice</a>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="side-menu">
 		<div class="side-menu-item">
-			<a href="">문의하기</a>
+			<a href="">Contact</a>
 		</div>
 		<div class="side-menu-item">
-			<a href="">안내문</a>
+			<a href="">Notice</a>
 		</div>
 	</div>
 	<form method="POST">
@@ -57,8 +59,7 @@
 					style="width: 910px; height: 450px;"></textarea>
 			</div>
 
-			<button type="submit"
-				style="float: right; margin-right: 15px; font-size: 20px;">작성</button>
+			<button type="submit">작성</button>
 		</div>
 	</form>
 </body>
