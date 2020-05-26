@@ -1,24 +1,25 @@
 @charset "UTF-8";
 
 .contact-list {
-	border: 1px solid white;
-	width: 1300px;
-	height: 480px;
-	float: left;
-	margin: 80px 80px 80px 190px;
-	background: lightgrey;
+    border: 1px solid white;
+    width: 1300px;
+    height: 480px;
+    float: left;
+    margin: 150px 150px auto 150px;
 }
 
 table {
-	width: 1300px;
-	background: lightgray;
-	border: 1px solid white;
+	width: 2100px;
+	border: 1px solid;
+	height: 750px;
 }
 
 .pageing-num {
-	margin: 10px 500px;
-	text-align: center;
-	font-size: 17px;
+    margin: 25px 600px;
+    text-align: center;
+    font-size: 28px;
+    width: 700px;
+    height: 50px;
 }
 
 #backBtn {
@@ -44,6 +45,6 @@ button a {
 	background: darkgrey;
 }
 
-.writer-item{
+.writer-item {
 	margin: 40px 27px 20px;
 }

@@ -8,7 +8,7 @@
 <meta charset="UTF-8">
 <title>UserInfo</title>
 </head>
-<body class="body">
+<body class="body-main">
 	<form action="userinfo.do" method="POST">
 		<div class="main-user-content">
 			<img class="user-img" alt=""
@@ -16,27 +16,23 @@
 		<div class="user-content">
 			<div class ="user-input">
 				<label>아아디</label> 
-				<input type="text" style="margin-left: 35px;" name="id">
+				<input type="text"  name="id">
 			</div>
 			<div class ="user-input">
 				<label>비밀번호</label> 
-				<input style="margin-left: 22px;" type="password" name="password">
+				<input  type="password" name="password">
 			</div>
 			<div class ="user-input">
-				<label>재 비밀번호 </label> 
-				<input type="password" name="password2">
-			</div >
-			<div class ="user-input">
 				<label>이름</label> 
-				<input type="text" style="margin-left: 48px;" name ="name">
+				<input type="text"  name ="name">
 			</div>
 			<div class ="user-input">
 				<label>핸드폰</label> 
-				<input type="text" style="margin-left: 35px;" name="phone">
+				<input type="text"  name="phone">
 			</div>
 			<div class ="user-input">
 				<label>이메일</label> 
-				<input type="text" style="margin-left: 35px;" name="email">
+				<input type="text"  name="email">
 			</div>
 		</div>
 		<div class="userinfo-btn">

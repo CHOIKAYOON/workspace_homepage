@@ -96,5 +96,34 @@
 			</a>
 		</div>
 	</div>
+	
+	<div class="main-footer">
+				<footer>
+					<div class="gb-footer-2020__middle">
+						<div class="gb-footer-2020__inner">
+							<div class="gb-footer-2020__info-text">
+								<div class="gb-footer-2020__info-copy">
+									<p>Copyright&nbsp;©&nbsp;1995-2020&nbsp;SAMSUNG&nbsp;All&nbsp;Rights&nbsp;Reserved.</p>
+								</div>
+								<div class="gb-footer-2020__info-legal">
+									<p>
+										경기도 수원시 영통구 삼성로 129 (매탄동) 삼성전자주식회사 대표이사&nbsp;김기남 사업자등록번호
+										124-81-00998 <a title="사업자 정보확인 새 창"
+											href="//www.ftc.go.kr/www/bizCommView.do?key=232&amp;apv_perm_no=2000374001130200515&amp;pageUnit=10&amp;searchCnd=wrkr_no&amp;searchKrwd=1248100998&amp;pageIndex=1"
+											target="_blank"><u>사업자 정보확인</u></a> 통신판매업 신고: 2000-경기수원-0515
+										호스팅서비스사업자 : 삼성에스디에스(주)
+									</p>
+									<p>대표번호: 02-2255-0114 팩스: 02-2255-0117 제품/서비스/멤버십:
+										1588-3366 구매문의: 1588-6084</p>
+									<p>
+										삼성전자주식회사는 통신판매중개자로서 통신판매의 당사자가 아니며, 개별 판매자가 등록한 거래정보 및 거래에 대하여
+										책임을 지지 않습니다. </br>
+										 <i>본 사이트의 콘텐츠는 저작권법의 보호를 받는바, 무단 전재, 복사, 배포 등을 금합니다.</i>
+									</p>
+								</div>
+							</div>
+						</div>
+				</footer>
+			</div>
 </body>
 </html>

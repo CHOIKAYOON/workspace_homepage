@@ -11,7 +11,7 @@
 	display: flex;
 	border-bottom: 1px solid;
 	padding: 5px;
-	border-bottom: 2px solid ;
+	border-bottom: 2px solid;
 	/* 	background: midnightblue; */
 	height: 110px;
 	text-align: left;
@@ -37,19 +37,28 @@
 }
 
 .side-menu {
-    width: 250px;
-    height: 1300px;
-    background: black;
-    float: left;
+	width: 250px;
+	height: 1280px;
+	background: black;
+	float: left;
 }
 
 .side-menu-item {
-    margin: 30px;
-    float: left;
+	margin: 30px;
+	float: left;
 }
 
 .side-menu-item a {
 	text-decoration: none;
 	color: white;
-    font-size: 23px;
+	font-size: 23px;
+}
+
+.main-footer {
+	border-top: 1px solid black;
+    color: black;
+    margin-top: 1280;
+    margin-left: 250px;
+    text-align: -webkit-right;
+}
 }

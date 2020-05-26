@@ -2,71 +2,27 @@
 
 .main-contant-img {
 	float: left;
-	width: 600px;
-	height: 500px;
-	margin: 100px 0px 100px 250px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 20px;
 }
 
-.main-contant-img img {
-	width: 500px;
-	height: 500px;
+.main-footer-view {
+	border-top: 1px solid black;
 }
 
-.item-name {
-	display: inline-block;
+.view-list-content {
+	display: inline-flex;
 }
 
-.list-itme-title {
-	border: 1px solid;
-	float: left;
-	width: 300px;
-	margin: 100px 100px 100px 10px;
+.view-list-content span {
+	padding: 25px;
 }
 
-.view-list{
-    float: left;
-    width: 500px;
-    height: 500px;
-    margin: 100px auto;
-    background: linear-gradient(45deg, black, transparent);
+.view-list-content h2 {
+	padding-left: 50px;
 }
 
-.view-list-content{
-    width: 500px;
-}
-
-h2{
-	display: inline-block;
-    color: white;
-    font-size: 25px;
-    margin-left: 25px;
-}
-
-span{	
-	margin: 20px;
-    font-size: 20px;
-    color : white;
-}
-
-.boxbtn{
+button{
 	margin: 50px;
-    margin-left: 130px;
-    background: skyblue;
-	border-radius: 5px;
-	padding: 5px;
-	color: white;
-	font-size: 20px;
 }
-
-strong{
-	color : skyblue;
-}
-
-.byebtn{
-	background: skyblue;
-	border-radius: 5px;
-	padding: 5px;
-	color: white;
-	font-size: 20px;
-}
-
