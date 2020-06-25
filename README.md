@@ -7,8 +7,7 @@
 ##### Rest API를 사용하여, Data를 Get/POST 방식으로 구현
 ##### CSS 사용 및 JSP 구현 연습용으로 구현한 웹 사이트 페이지
 
-![Uploading 삼성.JPG…]()
-
+![삼성](https://user-images.githubusercontent.com/31337244/85660353-7e901700-b6f0-11ea-8c5c-3184492d7bc9.JPG)
 
 
 
